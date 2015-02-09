@@ -1,3 +1,16 @@
-## Yo, I'm a Readme
+# Handlebars
 
-You should probably update me so people looking at your code have an idea what it is being used for :)
+## Description
+ This exercise is to take a project and incorporate Handlebar syntax into the project.
+
+## Want this repo?
+ * Clone my repo
+ * Run npm install
+ * Run bower install
+
+## Libraries Used
+ * Handlebars
+
+
+##Copyright / License
+ * This project belongs to Stephen Settle
