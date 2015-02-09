@@ -19,20 +19,43 @@
 
   </head>
   <body>
+    <div class="user">
+      
 
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Normalize CSS</li>
-        <li>Sass</li>
-
-        <li>Bourbon & Neat</li>
-        <li>UnderscoreJS</li>
-      </ul>
-      <p>Don't forget to update your readme file!!</p>
     </div>
+
+
+<!--==== User Sidebar Script ====-->
+
+<script type="text/template" id="userTemp">
+
+  <div class="imgInfo">
+    <a href="https://github.com/<%=login%>">
+      <img src=" <%= avatar_url %> ">
+    </a>
+    <h1> <%= name %> </h1>
+    <h2> <%= login %> </h2>
+  </div>
+  <div class="userInfo">
+    <ul>
+      <li>
+        <span class="octicon octicon-location"></span> 
+        <%= location %> 
+      </li>
+      <li>
+        <span class="octicon octicon-mail"></span>
+        <a href="mailto:<%=email%>"> 
+          <%= email %> 
+        </a>
+      </li>
+      <li> 
+        <span class="octicon octicon-clock"></span>
+        <div class='join'></div>
+      </li>      
+    </ul>
+  </div>
+</script>
+
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
@@ -42,6 +65,7 @@
     <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->
+        <script src="scripts/user.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>

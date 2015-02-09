@@ -9,18 +9,51 @@ body {
   color: #333;
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 600px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+.user{
+  width: 230px;
+  margin: 50px 0 0 100px;
+  background: lightgray;
+}
+.imgInfo{ 
+  margin-bottom: 20px;
+    img{
+      width: 230px;
+      border-radius: 8px;
+    }
+    h1{
+      margin: 0px;
+      font-size: 25px;
+    }
+    h2{
+      margin: 0px;
+      font-weight: normal;
+      color: #666674;
+      font-size: 20px;
+    }
+}
+.userInfo{
+  color: black;
+  font-size: 14px;
+  border-top: 1px solid lightgray;
+    ul{
+      list-style: none;
+      padding: 0px 0px 0px 0px;
+        span{
+          color: lightgray;
+          padding: 0px 5px 5px 0px;
+        }
+    }
+    a{
+      text-decoration: none;
+      color: #4183C4;
+    }
+    a:hover{
+      text-decoration: underline;
+    }
+    li:first-child{
+      padding-left: 4px;
+    }
+    ul{
+      line-height: 20px;
+    }
 }
