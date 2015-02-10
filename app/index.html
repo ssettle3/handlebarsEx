@@ -19,53 +19,20 @@
 
   </head>
   <body>
-    <div class="user">
-      
+    <div class="glocks"></div>
 
-    </div>
-
-
-<!--==== User Sidebar Script ====-->
-
-<script type="text/template" id="userTemp">
-
-  <div class="imgInfo">
-    <a href="https://github.com/<%=login%>">
-      <img src=" <%= avatar_url %> ">
-    </a>
-    <h1> <%= name %> </h1>
-    <h2> <%= login %> </h2>
-  </div>
-  <div class="userInfo">
-    <ul>
-      <li>
-        <span class="octicon octicon-location"></span> 
-        <%= location %> 
-      </li>
-      <li>
-        <span class="octicon octicon-mail"></span>
-        <a href="mailto:<%=email%>"> 
-          <%= email %> 
-        </a>
-      </li>
-      <li> 
-        <span class="octicon octicon-clock"></span>
-        <div class='join'></div>
-      </li>      
-    </ul>
-  </div>
-</script>
 
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/handlebars/handlebars.js"></script>
     <script src="../bower_components/underscore/underscore.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->
-        <script src="scripts/user.js"></script>
+        <script src="scripts/templates.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>
